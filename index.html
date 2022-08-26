@@ -14,7 +14,7 @@
             <div class="nav">
                 <h1>Dojonary</h1>
                 <input type="text" placeholder="Search" name="query" class="search">
-                <button class="nav-btn">Login</button>
+                <button class="nav-btn" onclick="logout(this)">Login</button>
             </div> 
         </header>
         <!-- Desarrollo de contenido-->
@@ -27,7 +27,7 @@
                         <h2>ninja</h2>
                         <h3><span class="cursiva">noun</span></h3>
                         <h4>Plural: <span class="cursiva">ninjas</span></h4>
-                        <button class="col-i_btn">13 likes</button>
+                        <button class="col-i_btn" onclick="alert('Ninja was liked')">13 likes</button>
                     </div>
                     <div class="bloque2">
                         <h3>A practitioner skilled in the <span class="azul">Japanese</span> art on <span class="azul">ninjutsu</span></h3>
@@ -55,11 +55,12 @@
                         <h2>defined by <span class="you">YOU</span></h2>
                     </div>
                     <div>
-                        <button class="col-d_btn">Add Definition</button>
+                        <button class="col-d_btn" onclick="hide(this)">Add Definition</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

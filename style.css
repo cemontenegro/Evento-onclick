@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: white;
+    color: black;
+    height: 70px;
+}
+
+.contenido, .nav{
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav{
+    background-color: #cccccc;
+    justify-content: space-evenly;
+    align-items: center;
+    height: inherit;
+}
+
+.search {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0px 70px;
+}
+
+.nav-btn{
+    background-color: #2b78e4;
+    padding: 3px 15px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 1px black;
+    margin-right: 30px;
+}
+
+h1{
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+/* Desarrollo de pagina*/
+
+.col-i{
+    flex: 2;
+    margin: 25px 10px 20px 0px;
+}
+
+.col-d{
+    flex: 1;
+    margin: 25px 0px 20px 10px;
+}
+
+/* Desarrollo de columna izquierda*/
+
+.col-i_v1, .col-d_v1{
+    border-bottom: 4px solid #000000;
+    border-left: 4px solid #000000;
+    border-right: 4px solid #000000;
+    border-top: 4px solid #000000;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-i_v1{
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+}
+
+.col-i_btn{
+    background-color: #ffd966;
+    padding: 8px 19px;
+    font-size: 17px;
+    box-shadow: 5px 5px 1px black;
+    margin-top: 25px;
+    font-weight:bold;
+}
+
+.bloque1{
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    align-items: center;
+}
+
+.bloque2{
+    flex: 2;
+    padding: 0px 40px;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.bloque1 h3{
+    padding: 5px 0px;
+}
+
+.bloque1 h2{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.azul{
+    color: #2b78e4;
+    text-decoration: underline;
+}
+/* Desarrollo de columna derecha */
+
+.col-d_v1{
+    flex-direction:column;
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.col-d_btn{
+    background-color: #93c47d;
+    padding: 5px 25px;
+    margin-top: 25px;
+    color: black;
+    font-size: 20px;
+    box-shadow: 5px 5px 1px black;
+    font-weight:bold;
+}
+
+.you{
+    font-weight: bold;
+    font-size: 30px;
+}
